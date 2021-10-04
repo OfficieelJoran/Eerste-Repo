@@ -1,0 +1,289 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,97,113,1) 35%);
+}
+.navbar {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+     background-color:#91BAD6;
+     overflow:hidden;
+}
+.list{
+    float:left;
+    font-size: 120%;
+}
+.navbarlink {
+    display:block;
+    padding:15px;
+    border-right:2px solid white;
+    text-decoration:none;
+    color:white;
+}
+.active {
+    display:block;
+    padding:15px;
+    border-right:2px solid white;
+    text-decoration:none;
+    color:white;
+    background-color:#1E3F66;
+}
+.list1{
+    float:right;
+    font-size:120%;
+}
+.about {
+    display:block;
+    float:right;
+    color:white;
+    text-decoration:none;
+    border-left: 2px solid white;
+    padding:15px;
+    background-color:#1E3F66;
+}
+.list:hover{
+    background-color:lightgray
+}
+.about:hover {
+    background-color:lightgray;
+}
+
+.bovenkop {
+    background:#3e92cc;
+    text-align: center;
+    border-bottom:7px solid #2e5984;
+    border-left: 3px solid #2e5984;
+    border-right:3px solid #2e5984;
+    border-top:3px solid #2e5984;
+    padding:5px;
+    color:white;
+    width: 500px;
+    left: 485px;
+    position:relative;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.vak1 {
+    width:200px;
+    height: 300px;
+    border-bottom:7px solid #2e5984;
+    border-left: 3px solid #2e5984;
+    border-right:3px solid #2e5984;
+    border-top:3px solid #2e5984;
+    padding: 5px;
+    background-color:#3e92cc;
+    position:absolute;
+    transition: all 0.8s ease 0s;
+
+}
+.vak1:hover {
+    width:280px;
+    height: 400px;
+    transition: all 0.8s ease 0s;    
+}
+.invak1 {
+    width: 208px;
+    height: 310px;
+    text-align: center;
+    color:floralwhite;
+    font-size: 120%;
+    transition: all 0.8s ease 0s;
+}
+.invak1:hover {
+    width: 280px;
+    height: 400px;
+    transition: all 0.8s ease 0s;
+    font-size: 163%;
+}
+.instalogo {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    right: 780px;
+}
+.instalogo:hover {
+    width: 11%;
+    height: auto;
+    transition: all 0.1s ease 0.05s;
+    right: 790px;
+}
+.instalogo:active {
+    transform: translatey(8px);
+}
+.steamlogo {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    right: 590px;
+}
+.steamlogo:hover {
+    width: 11%;
+    height: auto;
+    transition: all 0.1s ease 0.05s;
+    right:580px;
+}
+.steamlogo:active {
+    transform: translatey(8px);
+}
+.vak2 {
+    width:200px;
+    height: 300px;
+    border-bottom:7px solid #2e5984;
+    border-left: 3px solid #2e5984;
+    border-right:3px solid #2e5984;
+    border-top:3px solid #2e5984;
+    padding: 5px;
+    background-color:#3e92cc;
+    position:absolute;
+    transition: all 0.8s ease 0s;
+    left:1300px;
+}
+.vak2:hover {
+    position:absolute;
+    width: 280px;
+    height: 400px;
+    transition: all 0.8s ease 0s;
+    left:1230px;
+}
+
+.invak2 {
+    width: 208px;
+    height: 310px;
+    text-align: center;
+    color:floralwhite;
+    font-size: 120%;
+    transition: all 0.8s ease 0s;
+    
+}
+.invak2:hover {
+    width: 280px;
+    height: 400px;
+    transition: all 0.8s ease 0s;
+    font-size: 163%;
+}
+.picca1 {
+    width: 17%;
+    height: auto;
+    position: relative;
+    left: 959px;
+    border: 2px solid #2e5984;
+    transition: all 0.8s ease 0.1s;
+}
+.picca1:hover{
+    transform: rotatey(180deg);
+    transition: all 0.8s ease 0.1s;
+}
+.picca2 {
+    width: 16%;
+    height: auto;
+    position: relative;
+    left: 35px;
+    bottom: 80px;
+    border: 2px solid #2e5984;
+    transition: all 0.8s ease 0.1s;
+}
+.picca2:hover{
+    transform: rotatey(180deg);
+    transition: all 0.8s ease 0.1s;
+}
+.vak3 {
+    position: relative;
+    width: 368px;
+    height: 61px;
+    background-color: #3e92cc;
+    border-bottom: 7px solid #2e5984;
+    border-left: 3px solid #2e5984;
+    border-right: 3px solid #2e5984;
+    border-top: 3px solid #2e5984;
+    padding: 5px;
+    left: 558px;
+    bottom: 146px;
+    transition: all 0.4s ease 0s;
+}
+.invak3 {
+    text-align:center;
+    color:floralwhite;
+    font-size:140%;
+}
+.vak3:hover {
+    bottom: 160px;
+    transition: all 0.4s ease 0s;
+}
+.vak1overmij {
+    width:300px;
+    height: 400px;
+    border-bottom:7px solid #2e5984;
+    border-left: 3px solid #2e5984;
+    border-right:3px solid #2e5984;
+    border-top:3px solid #2e5984;
+    padding: 5px;
+    background-color:#3e92cc;
+    position:absolute;
+    transition: all 0.8s ease 0s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.invak1overmij {
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    color:floralwhite;
+    font-size: 120%;
+    transition: all 0.8s ease 0s;
+    position:relative;
+    right:0px;
+    color:white;
+    font-size: 130%;
+    text-align:left;
+}
+.vak2overmij {
+    opacity:0.6;
+    width: 400px;
+    height: 450px;
+    float: right;
+    background-color:#3e92cc;
+    border: 2px solid #2e5984;
+    border-bottom:7px solid #2e5984;
+    left: -100px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.invak2overmij {
+    width: 400px;
+    height: 500px;
+    color:white;
+    font-size:130%;
+    text-align:left;
+}
+.Emailbox {
+    left: 350px;
+    position:relative;
+    color:white;
+    background-color:#3e92cc;
+    opacity: 0.7;
+    width: 715px;
+    border: 2px solid #2e5984;
+    border-radius: 10px;
+    border-bottom: 7px solid #2e5984;
+}
+input[type=text], textarea, select {
+margin-left: 35px;
+width: 90%;
+padding:7px;
+border:2px solid #3e92cc;
+border-radius:5px;
+box-sizing: border-box;
+margin-top:5px;
+margin-bottom:5px;
+}
+input[type=submit] {
+    background-color:darkslategray;
+    width: 90px;
+    height: 50px;
+    color:white;
+    border-radius: 5px;
+    margin-left:35px;
+}
+.emailboxtext {
+    margin-left:35px;
+}
